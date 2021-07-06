@@ -11,7 +11,7 @@
             body,
             .container {
                 height: 95%;
-                cursor:url("click.png") 60 60, auto;
+                cursor:url("cow_stuff/hand.png") 60 60, auto;
                 background-color: #f5fefc;
             }
 
@@ -31,7 +31,7 @@
     
     <!-- Preload Image -->
     
-    <body vlink="#551a8b" text="#000000" link="#0000cc" bgcolor="#EDEDED" alink="#ff0000"><img style="display:none" src="cow.gif">
+    <body vlink="#551a8b" text="#000000" link="#0000cc" bgcolor="#EDEDED" alink="#ff0000"><img style="display:none" src="cow_stuff/cow.gif">
     
     <!------------------------------------------------------------>
     
@@ -46,7 +46,7 @@
     <!-- The Man -->
     <center>
     
-    <img id="2" name="unactivated" onclick="activate();" src="cowstill.png">
+    <img id="2" name="unactivated" onclick="activate();" src="cow_stuff/cowstill.png">
     </center>
     
     <!------------------------------------------------------------>
@@ -60,7 +60,7 @@
                 var audio = document.getElementById(1);
                 audio.play();
                 var img = document.getElementById(2);
-                img.src = "cow.gif";   
+                img.src = "cow_stuff/cow.gif";   
                 var activated = 1;
                 document.getElementById(2).name = "activated";
             }
@@ -68,7 +68,7 @@
     </script>
     
     <p hidden=""> <!-- do not display these in any way -->
-    <audio loop="" id="1" src="Cypis.mp3"></audio>
+    <audio loop="" id="1" src="cow_stuff/Cypis.mp3"></audio>
     </p>
     
     <!------------------------------------------------------------>
